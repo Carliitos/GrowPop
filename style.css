@@ -80,7 +80,7 @@ body{
 .post{
     width: 40%;
     background-color: white;
-    height: 26rem;
+    height: 40%;
     margin-left: 30%;
     border: 1px solid #50505061;
     border-radius: 3px;
@@ -95,6 +95,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
+  
     
     
 }
