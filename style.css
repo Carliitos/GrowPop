@@ -106,7 +106,7 @@ object-fit: contain;
 }
 .user{
     padding-left: 1rem;
-    width: 100%;
+    width: 20%;
     height: 4rem;
     font-size: 1.8rem;
     
@@ -139,4 +139,8 @@ object-fit: contain;
     background-size: 100% 100%;
     width: 4rem;
     height: 100%;
+}
+.userText{
+    position: absolute;
+    right: 0;
 }
