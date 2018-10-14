@@ -36,3 +36,9 @@ $("body").on("mouseenter",'.fa-star', function(){
         n=false;
     }
 });
+var likes = 0;
+$("body").on("click",'.fa-star', function(){
+    likes++;
+    $( "h4" ).replaceWith("<h4>"+likes+"</h4>" );
+
+});
