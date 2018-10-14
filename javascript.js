@@ -14,3 +14,7 @@ $('.container').click(function() {
     night = false;
     }
 });
+$(".search").on("click", function(){
+    $( ".search" ).replaceWith("<input class='searchClick' type='text' placeholder='Buscar..'>" );
+    $(".search").select();
+});

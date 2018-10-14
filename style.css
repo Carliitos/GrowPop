@@ -63,11 +63,40 @@ body{
     padding-top: 5px;
     
 }
-.empty{
-    
+.midS{
+    height: 100%;
+    width: 3rem;
     order: 0;
     flex: 1 1 auto;
     align-self: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+}
+.search{
+    height: 37%;
+    border-radius: 0.2rem;
+    padding-left: 28%;
+    font-size: 0.9rem;
+    color: #384a3894;
+    width: 83%;
+    cursor: text;
+    border: 1px solid #50505061;
+    background-color: #3f563f1f;
+}
+.searchClick{
+    height: 37%;
+    padding-left: 5%;
+    border-radius: 0.2rem;
+    font-size: 0.9rem;
+    color: #384a3894;
+    width: 83%;
+    cursor: text;
+    border: 1px solid #50505061;
+    background-color: #3f563f1f;
 }
 .fa-star{
     color: #445867;
@@ -75,7 +104,7 @@ body{
     order: 0;
     flex: 1 1 auto;
     align-self: auto;
-    font-size: 1.55rem;
+    font-size: 1.4rem;
 }
 .post{
     width: 40%;
