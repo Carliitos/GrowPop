@@ -23,6 +23,7 @@ $(".fa-star").on("mouseenter", function(){
     n=false;
     console.log("enter");
     $( ".fa-star" ).replaceWith("<i class='fas fa-star'></i>" );
+    
 });
 $('body').on('mouseleave' , '.fa-star'  ,function(){
     n=true;

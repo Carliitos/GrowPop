@@ -12,9 +12,9 @@ body{
     /*opacity: 0.1;*/
     padding-top: 2rem;
     animation: bodybg 10s 0s linear infinite alternate;
-    height: 100%;
     width: 100%;
     max-width: 100%;
+    margin-top: 5%;
 }
 .night{
     padding-top: 2rem;
@@ -35,6 +35,8 @@ body{
     
 }
 .bar{
+    position: fixed;
+    top: 0;
     height: 4rem;
     border-bottom: 1px solid #b9b9b9;
     width: 100%;
@@ -113,7 +115,7 @@ body{
     margin-left: 30%;
     border: 1px solid #50505061;
     border-radius: 3px;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     /*overflow: hidden;*/
 }
 .photo{
@@ -159,6 +161,7 @@ object-fit: contain;
     position: absolute;
     width: 4rem;
     height: 3rem;
+    
 }
 .profile {
     margin: 0.5rem 0 0.5rem 0.5rem;
