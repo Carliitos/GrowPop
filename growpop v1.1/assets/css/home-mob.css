@@ -32,6 +32,23 @@
 	padding: 10px;
 }
 
+.msg-back{
+	text-decoration: none;
+	position: relative;
+	color: currentColor;
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+	font-size: 25px;
+}
+
+.header-msg{
+	margin-right: 20px;
+	margin-top: 10px;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif; /*Niramit*/
+}
+
 .all-mob-post {
 	margin-top: 70px;
 
@@ -71,7 +88,30 @@
 
 .post-content {
 	max-width: 100%;
+}
 
+.post-like-ico {
+	float: left;
+	width: 25px;
+}
+
+.post-likes {
+	float: left;
+	font-size: 13px;
+	margin-top: -5px;
+}
+
+.post-user-content{
+	float: left;
+	font-size: 13px;
+	margin-top: -15px;
+}
+
+.post-date{
+	margin-top: -10px;
+	float: left;
+	font-size: 10px;
+	color: #d1d1d1;
 }
 
 .post-footer {

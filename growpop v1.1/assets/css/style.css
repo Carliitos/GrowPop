@@ -2,142 +2,21 @@ html {
   height: 100%;
 }
 body{
-    background-color: #EEF2F5;
+    background-color:#ccffb3 /*#EEF2F5*/;
     margin:0 auto; 
-    font-family: 'Niramit', sans-serif;
+    font-family: 'Arial', sans-serif; /*Niramit*/
     height: 100%;
     
-}
-.container{
-    /*opacity: 0.1;*/
-    padding-top: 2rem;
-    animation: bodybg 10s 0s linear infinite alternate;
-    width: 100%;
-    max-width: 100%;
-    margin-top: 5%;
-}
-.night{
-    padding-top: 2rem;
-    animation: night 10s 0s linear infinite alternate;
-    height: 100%;
-    width: 100%;
-    max-width: 100%;
 }
 
-.bar{
-    position: fixed;
-    top: 0;
-    height: 4rem;
-    border-bottom: 1px solid #b9b9b9;
-    width: 100%;
-    background-color: #ffffff;
-}
 
-.friends-control{
-    width: 20%;
-    height: 40%;
-    float: right;
-    background: #fff;
-    margin-right: 8%;
-    margin-top: 2rem;
-    border: 1px solid #50505061;
-    border-radius: 3px;
-    overflow-y: scroll;
-   
-}
-.head{
-    
-    margin-left: 20%;
-    width: 60%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: stretch;
-    align-items: center;
-}
-.logo{
-    color: #445867;
-    width: 9rem;
-    height: 3rem;
-    font-size: 1.55rem;
-    order: 0;
-    flex: 1 1 auto;
-    align-self: auto;
-    padding-top: 5px;
-    
-}
-.midS{
-    height: 100%;
-    width: 3rem;
-    order: 0;
-    flex: 1 1 auto;
-    align-self: auto;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: stretch;
-    align-items: center;
-}
-.search{
-    height: 37%;
-    border-radius: 0.2rem;
-    padding-left: 28%;
-    font-size: 0.9rem;
-    color: #384a3894;
-    width: 83%;
-    cursor: text;
-    border: 1px solid #50505061;
-    background-color: #3f563f1f;
-}
-.searchClick{
-    height: 37%;
-    padding-left: 5%;
-    border-radius: 0.2rem;
-    font-size: 0.9rem;
-    color: #384a3894;
-    width: 83%;
-    cursor: text;
-    border: 1px solid #50505061;
-    background-color: #3f563f1f;
-}
-.tercer{
-    color: #445867;
-    text-align: right;
-    order: 0;
-    flex: 1 1 auto;
-    align-self: auto;
-    font-size: 1.4rem;
-}
-.post{
-    width: 40%;
-    background-color: white;
-    height: 26rem;
-    
-    border: 1px solid #50505061;
-    border-radius: 3px;
-    margin-bottom: 3rem;
-    /*overflow: hidden;*/
-}
-
-.photo{
-    width: 100%;
-    height: 100%;
-    background: #fff;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; 
-    
-    
-}
 img{
     height: 100%;
     width: 100%;
     object-fit: contain;
 
 }
+
 .user{
     display: inline-block;
     padding-top: 0.7rem;

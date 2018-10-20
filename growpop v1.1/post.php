@@ -4,7 +4,7 @@ session_start();
 include('includes/config.php');
 include('functions/functions.php');
 
-ini_set('error_reporting',0);
+// ini_set('error_reporting',0);
 
 $varsession = $_SESSION['user_name'];
 
@@ -23,6 +23,7 @@ $varsession = $_SESSION['user_name'];
 
             $user_name = $row['user_name'];
             $user_id = $row['user_id'];
+
         ?>
 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -41,10 +42,8 @@ $varsession = $_SESSION['user_name'];
 
         <title>GrowPop > <?php echo $user_name ?></title>
         <script type="text/javascript">
-                function openImg(){
-                    document.getElementById('inputFile').click();
-                }
-            </script>
+              $("#inputFile").focus();  
+        </script>
     </head>
 <?php
     if($varsession == null || $varsession = ''){
@@ -54,7 +53,7 @@ $varsession = $_SESSION['user_name'];
 
 ?>
 
-    <body onload="javascript:openImg();">
+    <body>
         <!-- DESKTOP VIEWER -->
     
         <!-- END DESKTOP VIEWER -->
@@ -79,7 +78,7 @@ $varsession = $_SESSION['user_name'];
                         <textarea class="form-control" id="content" rows="4" name="content" placeholder="Hola <?php echo $user_name ?>, ¿Como estas hoy?"></textarea><br>
 
                         <label class="btn btn-warning" id="upload_img_btn">Subir foto
-                            <input id="inputFile" type="file" style="display: none;" name="upload_image" size="30" accept="image/*">
+                            <input id="inputFile" type="file" style="display: none;" name="upload_image" size="30" accept="image/*" capture="camera">
                         </label>
 
                         <button id="btn-post" class="btn btn-success" name="sub">Publicar</button>    
